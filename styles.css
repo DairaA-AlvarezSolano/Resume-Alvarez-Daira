@@ -1,0 +1,672 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height:   1.6;
+    background-color: #f4f4f4;
+    padding-top: 70px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar {
+  background: linear-gradient(to right, #565263, #A6808B);
+}
+
+/* Cambiar el color del texto y los enlaces */
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/* Agregar transiciones y efectos de hover */
+.navbar-nav .nav-link {
+  transition: color   0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cccccc;
+}
+
+/* Ajustar el espaciado y la tipografía */
+.navbar-nav {
+  letter-spacing:   1px;
+}
+
+.navbar-brand {
+  font-size:   1.5rem;
+  font-weight: bold;
+}
+
+/* Agregar íconos a los enlaces */
+.navbar-nav .nav-link i {
+  margin-right:   5px;
+}
+
+/* Añadir margen a los elementos de la lista para aumentar el espacio entre los enlaces */
+.navbar-nav .nav-item {
+margin-right:  15px; /* Ajusta este valor para aumentar o disminuir el espacio */
+}
+
+/* Asegúrate de que el último elemento no tenga margen a la derecha para evitar espacio extra al final */
+.navbar-nav .nav-item:last-child {
+margin-right:  0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .text-primary {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #CBB7AE !important;
+}
+
+.jumbotron{
+    /* margin-top: 50px; */
+    background-color: #565263; /* Color de fondo para el encabezado */
+    margin-bottom:   0; /* Sin margen inferior para el encabezado */
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+.content-section {
+  background-color: #d6cfca95;
+    margin-bottom:   2rem; /* Espaciado entre secciones */
+    border-radius:   1rem; /* Bordes redondeados */
+    box-shadow:   0   0.5rem   1rem rgba(0,   0,   0,   0.15); /* Sombra para dar profundidad */
+    transition: transform   0.3s ease-in-out; /* Transición suave al pasar el cursor */
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      text-align: justify;
+}
+
+.content-section:hover {
+  
+    transform: translateY(-0.25rem); /* Efecto de elevación al pasar el cursor */
+}
+
+.my-5 {
+  
+    margin-top:   3rem !important; /* Espaciado superior para el contenido principal */
+    margin-bottom:   3rem !important; /* Espaciado inferior para el contenido principal */
+}
+
+/* Estilos adicionales para mejorar la apariencia y funcionalidad */
+h1 {
+    font-size: 2.0rem;
+    /* FALTA ESCOGER FUENTE */
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+
+  h4 {
+    font-size: 1.5rem;
+    margin-top:20px;
+    /* FALTA ESCOGER FUENTE */
+    font-family: 'Rubik Dirt', cursive;
+  }
+  .seccion-oscura {
+    color: white;
+    background-color: #706677;
+  }
+  
+  .seccion-clara {
+    color: black;
+    background-color: white;
+  }
+  
+  .seccion-titulo {
+    font-size: 30px;
+    padding: 15px 0;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
+  
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  }
+  
+  .seccion-texto {
+    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  }
+  
+  .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .texto-blanco {
+    color: white;
+  }
+
+  .seccion{
+    text-align: justify;
+    margin-bottom: 70px ;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  /* Seccion Hero */
+  
+  .hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+  }
+  
+  .hero-principal {
+    padding: 3rem;
+  }
+  
+  .hero-imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .rounded-square {
+    width:   200px; /* O cualquier tamaño que desees */
+    height:   200px; /* Debe ser igual al ancho para ser completamente circular */
+    border-radius:   10%; /* Hace que el elemento sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área circular sin distorsionarse */
+}
+
+  
+  .hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+  }
+
+
+  
+  /* Sobre mi */
+  
+  .sobre-mi {
+    height: 400px;
+    padding: 10px;
+  }
+  
+  .sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .info-texto{
+    font-size: 1.1rem;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  }
+  /* Experiencia */
+  
+  .experiencia {
+    padding: 40px 40px 60px 40px;
+  }
+  
+  .experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+  
+  .experiencia .columna:hover {
+    color: white;
+    background-color: #D1B6B7;
+  }
+  
+  .experiencia i {
+    font-size: 2.5rem;
+    color: #A6808B;
+    background-color: #D1B6B7;
+    padding: 8px 19px;
+    border-radius: 50%;
+  }
+  
+  .experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  }
+  
+  .badges-contenedor {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .badge {
+    margin: 5px;
+  }
+  /* FALTA CAMBIAR COLOR DE BOTONES */
+  .text-bg-primary {
+    background-color: #A6808B; /* Cambia este valor al color que desees */
+    color: #fff; /* Cambia este valor al color del texto que desees */
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.bg-primary{
+  background-color: black;
+}
+.table {
+  table-layout: fixed;
+  border-collapse: collapse; /* Elimina el espacio entre las celdas */
+  width: 100%;
+  font-size: 0.9em;
+  border: 10px solid #D1B6B7;
+}
+
+th, td {
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #ddd;
+ }
+
+ 
+.table tbody tr td:hover {
+  background-color: #CBB7AE; /* Cambia el color según prefieras */
+  box-shadow:  0px  2px  4px rgba(0,  0,  0,  0.2); /* Añade sombra con color negro y  20% de transparencia */
+
+}
+
+
+.medium-icon {
+  font-size:  1.5em; /* Ajusta este valor para cambiar el tamaño del icono */
+  color: black;
+  padding-right: 25px;
+}
+
+.big-icon {
+  font-size:  2.0em; /* Ajusta este valor para cambiar el tamaño del icono */
+  color: black;
+  padding-right: 25px;
+}
+
+.seccion .icon-p {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  text-align: center; /* Asegura que el texto esté centrado si los íconos no ocupan todo el espacio */
+}
+  /* libros */
+  
+  .libros {
+    padding: 40px 40px 80px 40px;
+  }
+  
+  .libros .carousel {
+    max-width: 500px;
+  }
+  
+  .carousel-item {
+    height: 500px;
+
+  }
+  
+  .carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+ .carousel-control-prev, .carousel-control-next  {
+    border: none;
+    height: 50px;
+    margin-top: 170px;
+    max-width: max-content;
+    background-color: #D1B6B7;
+  }
+
+  .gustos-imagen {
+    height: 200px;
+    width: 180px;
+    margin: 10px 10px 20px 10px;
+  }
+  
+  .gustos-texto {
+    max-width: 70%;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+
+  }
+  
+  .gustos-info {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  }
+  
+  .gustos-info p {
+    margin-bottom: 0;
+ 
+  }
+  
+  .testimonio-footer .libro {
+    font-size: 1.2rem;
+
+  }
+  
+  .testimonio-info .autor {
+    font-size: 0.9rem;
+    color: #656060;
+
+  }
+  
+ 
+  /* Pie de pagina (footer) */
+  
+  footer {
+    min-height: 50px;
+    background: linear-gradient(to left, #565263, #A6808B);
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding-top: 2%;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
+
+  /* .cv-body{
+    background-color: yellow;
+    padding-left:10rem;
+    padding-right:10rem;
+
+  } */
+
+  /* AQUÍ ESTOY HACIENDO PRUEBAS */
+  .left-column{
+    width:  25%; /* Ocupa  1/4 de la pantalla */
+    height:  100%;
+    background-color: red;
+    display: block; /* Asegura que la imagen se trate como un bloque */
+    margin: auto; /* Centra la imagen horizontalmente */
+  }
+
+  .left-column .section{
+    height:   20.00%; /* FALTA AJUSTAR SEGÚN QUEDEN LAS SECCIONES*/
+    border-bottom:   1px solid #ccc; /* Línea divisoria entre secciones */
+    display: flex; /* Hace que la sección sea un contenedor Flexbox */
+    align-items: center; /* Centra los elementos a lo largo del eje cruzado */
+    justify-content: center; /* Centra los elementos a lo largo del eje principal */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-self: flex-start; /* Alinea las secciones al inicio de la columna */
+
+  }
+
+  .left-column img{
+    max-width:   90%; /* La imagen nunca será más ancha que su contenedor */
+    max-height:   90%; /* La imagen nunca será más alta que su contenedor */
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro de su contenedor manteniendo su relación de aspecto */
+    display: flex; /* Asegura que la imagen se trate como un bloque */
+    margin: auto; /* Centra la imagen horizontalmente */
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    border-radius: 5%;
+    flex-direction: column;
+  }
+    
+
+
+  /* .right-column {
+    flex-grow:  1; /* Ocupa el espacio restante 
+    background-color: #e0e0e0; /* Color de fondo para visualizar la columna 
+    display: flex; /* Establece la columna derecha como un contenedor Flexbox 
+  flex-direction: column; /* Organiza las secciones en una columna 
+}
+
+  .right-column .section{
+    border-bottom:  1px solid #ccc;
+    padding: 5px;
+    border-left:  5px solid #007bff;
+    background-color:#7ade30 ;
+  } */
+
+
+  .ocupacion-h{
+    font-size: 1.6rem;
+    /* FALTA ESCOGER FUENTE */
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  .section span{
+    margin-left: 8px;
+  }
+
+  .section a{
+    margin-left: 18px;
+  }
+  .container-cv{
+    display: flex;
+    height:   100%;    
+    flex-direction: row; /* Organiza las columnas en una fila */
+  align-items: flex-start; /* Hace que las columnas se estiren para ocupar el mismo espacio vertical */
+  }
+
+  /* Adaptable (Responsivo) */
+  
+  @media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .gustos-imagen {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .gustos-texto {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 600px;
+    }
+  }
+
+
+  /* Animaciones */
+@keyframes fadeIn {
+  from { opacity:  0; }
+  to { opacity:  1; }
+}
+
+.fadeIn {
+  animation: fadeIn  1s ease-in;
+}
+
+/* Transiciones suaves */
+.smooth-transition {
+  transition: all  0.3s ease;
+}
+
+
+/* Ajustes para las dos columnas con separación y colores diferenciados */
+.col-info {
+  padding:   20px;
+  flex:   1; /* Primera columna más angosta */
+  background-color: #D1B6B7; /* Color de fondo para la primera columna */
+  margin-right:  20px; /* Separación entre columnas */
+}
+
+.col-experiencia {
+  padding:   20px;
+  flex:   2; /* Segunda columna más ancha */
+  background-color: #D6CFCA; /* Color de fondo para la segunda columna */
+}
+
+/* Ajustes para las tarjetas */
+.card {
+  margin-bottom:   20px;
+  box-shadow:   0   4px   8px   0 rgba(0,0,0,0.2);
+  transition:   0.3s;
+}
+
+.card:hover {
+  box-shadow:   0   8px   16px   0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+  padding:   20px;
+}
+
+
+@media only screen and (max-width: 760px) {
+  /* Establecer la tabla para que se comporte como un bloque en dispositivos móviles */
+  table {
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+
+  /* Ocultar las filas de encabezado visualmente */
+  thead {
+    display: none;
+  }
+
+  /* Establecer estilos para cada fila */
+  tr {
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #ccc;
+  }
+
+  /* Establecer estilos para las celdas */
+  td {
+    display: block;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    box-sizing: border-box;
+  }
+
+  /* Crear un espacio para el contenido de la celda */
+  td:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+
+  /* Asignar contenido específico para cada celda */
+  td:nth-of-type(1):before { content: "Monday"; }
+  td:nth-of-type(2):before { content: "Tuesday"; }
+  td:nth-of-type(3):before { content: "Wednesday"; }
+  td:nth-of-type(4):before { content: "Thursday"; }
+  td:nth-of-type(5):before { content: "Friday"; }
+}
